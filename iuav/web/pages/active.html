@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>代理商管理平台</title>
+
+    <link rel="stylesheet" type="text/css" href="/public/css/externals/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/public/css/common.css"/>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="left-side">
+            <div class="logo-wrap">
+                <a href="/" class="logo"></a>
+            </div>
+
+
+            <ul class="nav">
+                <li>
+                    <a href="/pages/active.html" class="active"><i class="icon icon-1"></i>飞机激活</a>
+                </li>
+                <li>
+                    <a href="/pages/management.html"><i class="icon icon-2"></i>客户管理</a>
+                </li>
+                <li>
+                    <a href="/pages/account.html"><i class="icon icon-3"></i>管理子账号</a>
+                </li>
+                <li>
+                    <a href="###"><i class="icon icon-4"></i>维修系统</a>
+                </li>
+                <li>
+                    <a href="###"><i class="icon icon-5"></i>大疆公告</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-side">
+            <div class="top">
+                <div class="user-info">
+                    <span>Hi, 大疆创新科技有限公司</span>
+                    <a href="javascript:;" class="logout">退出</a>
+                </div>
+            </div>
+
+            <div class="main-body">
+                <div class="form-section">
+                    <p class="form-title">激活信息</p>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*型号</label>
+                            <div class="col-sm-4">
+                                <button type="button" class="btn btn-default">MG-1</button>
+                                <button type="button" class="btn btn-default">MG-2</button>
+                                <button type="button" class="btn btn-default">MG-3</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*请输入硬件ID</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                                <p class="help-block">请将农业无人机与调参软件连接并获取硬件ID</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*请输入整机序列号</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                                <p class="help-block">请查看机器包装盒获取整机序列号</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <button type="button" class="button">添加设备</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-section">
+                    <p class="form-title">客户信息</p>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" value="option1" checked/> 企业用户
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="option2"/> 个人用户
+                                </label>
+
+                                <p class="help-block">
+                                    <span class="text-danger">提示：您的信息将用于购买保险，请您确保信息准确</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*用户DJI帐号</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+
+                                <p class="help-block text-danger">
+                                    <span class="text-danger">务必确认无误，帐号信息无法更改</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*企业名称</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                                <p class="help-block">请与组织机构代码证相同</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*企业信用代码</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                                <p class="help-block">组织机构代码证上的代码</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*企业联系地址</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <textarea rows="3" class="form-control" placeholder="请输入具体地址"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*设备负责人姓名</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*设备负责人身份证号码</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">*设备负责人手机号码</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="option1"> 需要纸质保单（由保险公司邮寄）
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <button type="button" class="button">下一步</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" data-main="/public/js/apply.js" src="/public/js/externals/require-2.1.11.min.js"></script>
+</body>
+</html>

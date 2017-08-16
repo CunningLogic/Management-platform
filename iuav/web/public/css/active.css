@@ -1,0 +1,95 @@
+.active-success-box {
+    margin: 40px 80px;
+    color: #707473;
+}
+.active-success-box a {
+    color: #44a8f2;
+}
+.active-success-box .congrats {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.active-success-box .active-tip {
+    margin: 50px 80px;
+}
+.active-success-box .active-tip p {
+    margin: 0;
+    font-size: 15px;
+}
+.active-success-box .active-secure {
+    margin: 0 80px;
+    color: #1c9e52;
+}
+.active-success-box .active-secure p {
+    margin: 0;
+    font-size: 14px;
+}
+.active-success-box .active-button {
+    margin: 40px 0;
+    text-align: center;
+}
+.active-success-box .active-button .button {
+    font-size: 20px;
+}
+
+
+.active-form {}
+.active-form .form-section {
+    padding: 40px 0;
+}
+.active-form div.form-title {
+    width: 100%;
+    line-height: 22px;
+}
+.active-form div.form-title span.title {
+    float: left;
+    padding-right: 20px;
+}
+.active-form div.form-title .help-tip {
+    /*margin: 0 0 0 100px;*/
+    font-size: 12px;
+}
+.active-form .personal-form {
+    display: none;
+}
+.active-form .help-block {
+    font-size: 12px;
+}
+.active-form .device-groups {
+    overflow: hidden;
+    margin-top: -20px;
+}
+.active-form .device-group {
+    position: relative;
+    margin-top: -1px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+.active-form .device-group .form-operation {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+}
+.active-form .device-group .form-operation .button-remove {
+    position: absolute;
+    right: -25px;
+    top: 0;
+    z-index: 1;
+}
+.active-form .device-group .form-result-wrap {
+    display: none;
+}
+.active-form .form-button-group {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #979797;
+}
+.active-form .form-button-group .button {
+    padding: 8px 24px;
+}
+
+.geo {}
+.geo > div {
+    padding: 0;
+}

@@ -1,0 +1,352 @@
+html, body {
+    height: 100%;
+}
+
+body {
+}
+
+/* components */
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 12px;
+    border: none;
+    background-color: #35c26f;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 16px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.button:hover {
+    background-color: #2cab60;
+}
+.button-default {
+    border: 1px solid #35c26f;
+    background-color: #fff;
+    color: #35c26f !important;
+}
+.button-default:hover {
+    background-color: #2cab60;
+    color: #fff !important;
+}
+
+.table.table-without-border {
+
+}
+.table.table-without-border th,
+.table.table-without-border td {
+    border: none !important;
+}
+.table.table-without-border td {
+    color: #707473;
+    vertical-align: middle;
+}
+
+.table.table-striped tbody tr:nth-child(2) {
+    background-color: #eaeaea;
+}
+
+
+
+
+.page-container {
+    height: 100%;
+}
+
+.form-group > label {
+    color: #979797;
+}
+.form-group.essential > label:before {
+    content: "*";
+    color: #f42727;
+}
+.text-danger {
+    color: #f42727;
+}
+
+/* left side */
+.left-side {
+    overflow: auto;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #1c9e52;
+}
+
+.logo-wrap {
+    height: 250px;
+    background: #158c46 url("/public/images/logo_bg.png") no-repeat;
+    text-align: center;
+}
+.logo-wrap .logo {
+    text-decoration: none;
+}
+.logo-wrap .logo-icon {
+    display: inline-block;
+    width: 61px;
+    height: 36px;
+    margin-top: 98px;
+    background: url("/public/images/logo_dji.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.logo-wrap .logo-title {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.calendar {
+    height: 115px;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.calendar > * {
+    margin: 0;
+    line-height: 1.1;
+}
+.calendar-day {
+    font-size: 24px;
+}
+.calendar-time {
+    font-size: 64px;
+}
+.calendar-date {
+    font-size: 18px;
+}
+
+.nav {
+    margin-top: 50px;
+}
+.nav li {
+    height: 65px;
+    line-height: 65px;
+}
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 0 0 0 45px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav li a:focus,
+.nav li a:hover,
+.nav li a.active {
+    background-color: #ffffff;
+    color: #1c9e52;
+}
+
+.nav li a .icon {
+    display: inline-block;
+
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-right: 10px;
+    background: url("/public/images/nav_icons.png") no-repeat;
+    vertical-align: middle;
+}
+.nav li a .icon.icon-1 {
+    background-position: 0 0;
+}
+.nav li a:hover .icon.icon-1,
+.nav li a.active .icon.icon-1 {
+    background-position: 0 -24px;
+}
+.nav li a .icon.icon-2 {
+    background-position: -24px 0;
+}
+.nav li a:hover .icon.icon-2,
+.nav li a.active .icon.icon-2 {
+    background-position: -24px -24px;
+}
+.nav li a .icon.icon-3 {
+    background-position: -48px 0;
+}
+.nav li a:hover .icon.icon-3,
+.nav li a.active .icon.icon-3 {
+    background-position: -48px -24px;
+}
+.nav li a .icon.icon-4 {
+    background-position: -72px 0;
+}
+.nav li a:hover .icon.icon-4,
+.nav li a.active .icon.icon-4 {
+    background-position: -72px -24px;
+}
+.nav li a .icon.icon-5 {
+    background-position: -96px 0;
+}
+.nav li a:hover .icon.icon-5,
+.nav li a.active .icon.icon-5 {
+    background-position: -96px -24px;
+}
+.nav li a .icon.icon-6 {
+    background-position: -120px 0;
+}
+.nav li a:hover .icon.icon-6,
+.nav li a.active .icon.icon-6 {
+    background-position: -120px -24px;
+}
+
+
+/* main side */
+.main-side {
+    margin-left: 250px;
+    padding: 20px;
+}
+.main-side .top {
+    height: 20px;
+    margin-bottom: 20px;
+}
+.main-side .top .user-info {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+}
+.main-side .top .user-info a.logout {
+    margin-left: 20px;
+    border-bottom: 1px solid #707473;
+    color: #707473;
+    text-decoration: none;
+}
+
+.main-body {
+    position: relative;
+    border-top: 2px solid #cecece;
+}
+
+
+
+
+
+
+
+
+/*  */
+.list-section {
+    border-top: 2px solid #cecece;
+}
+.list-section .list-section-head {
+    padding: 20px 0;
+}
+.list-section .list-section-body {}
+
+
+
+.apply-section {}
+.apply-section .apply-button {
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    margin: 50px auto;
+    padding: 0;
+}
+.apply-section .list-section-head {
+    padding-bottom: 10px;
+}
+.apply-section .list-section-head p {
+    margin: 0;
+    color: #707473;
+    font-size: 18px;
+}
+.apply-table thead {
+    background-color: #ccc;
+    color: #fff;
+}
+.apply-table thead tr th {
+    font-weight: normal;
+}
+.apply-table th,
+.apply-table td {
+    padding: 16px !important;
+    text-align: center;
+}
+.apply-table .status-approved {
+    color: #49c06d !important;
+}
+.apply-table .status-danger {
+    color: #f24444 !important;
+}
+.apply-table .status-info {
+    color: #44a8f2 !important;
+}
+
+
+
+
+.form-section {
+    position: relative;
+}
+.form-section .form-title {
+    position: absolute;
+    left: 0;
+    top: -12px;
+    height: 22px;
+    margin: 0;
+    padding-right: 20px;
+    background-color: #fff;
+    color: #707473;
+    font-size: 18px;
+}
+.form-section form {
+    padding: 40px 0;
+}
+
+
+
+
+.manamgement-list {
+    margin-top: -2px;
+}
+
+
+/* icon stars */
+.icon-star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("/public/images/icon_stars.png") no-repeat;
+    cursor: pointer;
+}
+.icon-star.icon-star-off {
+    background-position: -16px 0;
+}
+
+.icon-copy {
+    margin: 0 5px;
+}
+.icon-copy:before {
+    content: "";
+
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    margin-right: 2px;
+    background: url("/public/images/icon_copy.png") no-repeat;
+    vertical-align: middle;
+}
+
+
+/* locale */
+.us {}
+.us .logo-wrap .logo-title {
+    font-size: 15px;
+}
+.us .nav li a {
+    font-size: 13px;
+}

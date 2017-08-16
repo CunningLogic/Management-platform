@@ -1,0 +1,9 @@
+
+web/usermg/index.html
+WebsocketServer/WebsocketServer.exe
+env.bat
+WebsocketServer/cert/
+iuav/web/index.html
+WebsocketServer/logs/*
+iuav/runtime/*
+.idea

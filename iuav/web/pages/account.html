@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>代理商管理平台</title>
+
+    <link rel="stylesheet" type="text/css" href="/public/css/externals/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/public/css/common.css"/>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="left-side">
+            <div class="logo-wrap">
+                <a href="/" class="logo"></a>
+            </div>
+
+
+            <ul class="nav">
+                <li>
+                    <a href="/pages/active.html"><i class="icon icon-1"></i>飞机激活</a>
+                </li>
+                <li>
+                    <a href="/pages/management.html"><i class="icon icon-2"></i>客户管理</a>
+                </li>
+                <li>
+                    <a href="/pages/account.html" class="active"><i class="icon icon-3"></i>管理子账号</a>
+                </li>
+                <li>
+                    <a href="###"><i class="icon icon-4"></i>维修系统</a>
+                </li>
+                <li>
+                    <a href="###"><i class="icon icon-5"></i>大疆公告</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-side">
+            <div class="top">
+                <div class="user-info">
+                    <span>Hi, 大疆创新科技有限公司</span>
+                    <a href="javascript:;" class="logout">退出</a>
+                </div>
+            </div>
+
+            <div class="main-body">
+                <div class="apply-section">
+                    <a href="javascript:;" class="button apply-button" id="applyButton">申请子账号</a>
+
+                    <div class="list-section">
+                        <div class="list-section-head">
+                            <p>申请记录</p>
+                        </div>
+                        <div class="list-section-body">
+                            <table class="table table-striped table-without-border apply-table">
+                                <thead>
+                                    <tr>
+                                        <th>序列号</th>
+                                        <th>申请时间</th>
+                                        <th>名称</th>
+                                        <th>地点</th>
+                                        <th>负责人姓名</th>
+                                        <th>电话</th>
+                                        <th>邮箱</th>
+                                        <th>状态</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2016-04-23</td>
+                                        <td>新海岸店</td>
+                                        <td>新海岸</td>
+                                        <td>张三</td>
+                                        <td>13563663783</td>
+                                        <td>3433555@qq.com</td>
+                                        <td>申请中</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2016-04-23</td>
+                                        <td>新海岸店</td>
+                                        <td>新海岸</td>
+                                        <td>张三</td>
+                                        <td>13563663783</td>
+                                        <td>3433555@qq.com</td>
+                                        <td class="status status-approved">已批准</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2016-04-23</td>
+                                        <td>新海岸店</td>
+                                        <td>新海岸</td>
+                                        <td>张三</td>
+                                        <td>13563663783</td>
+                                        <td>3433555@qq.com</td>
+                                        <td>申请中</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="applyModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">申请子账户</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">帐号名称</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">姓名</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">手机</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">邮箱</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">地点</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <textarea type="text" class="form-control" placeholder="请输入具体地址"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <button type="button" class="button button-default">确定提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" data-main="/public/js/apply.js" src="/public/js/externals/require-2.1.11.min.js"></script>
+</body>
+</html>
